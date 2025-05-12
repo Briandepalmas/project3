@@ -15,9 +15,7 @@ body{
    min-height:100vh;
    padding:50px;
 }
-.container.show-nav{
-    transform: rotate(-20deg);
-}
+
 .circle-container{
     position: fixed;
     top: -100px;
@@ -31,6 +29,10 @@ body{
     border-radius: 50%;
     position:relative;
     transition: transfornm 0.5s linear;
+}
+.container.show-nav .circle{
+    transform: rotate(-70deg);
+
 }
 .circle button{
     cursor:pointer;
